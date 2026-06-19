@@ -1,7 +1,7 @@
 // ===============================================
 // إعدادات ديسكورد
 // ===============================================
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1517635335343837454/e6i-jmZwGoiamjMJ7I9yzozMTq1n14LKxfQ-SuUvY2wqZ69W_pywclapPTR9zyIxP7Bn"
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1517635351798354103/4aBtwaUtWWdTITUfu8pfQbVMS-RGerhwqUQ5YVmlu3IPYYy0tgRHbdcFFWL_xsYfD68H"
 function sendToDiscord(message) {
     if (!DISCORD_WEBHOOK_URL || DISCORD_WEBHOOK_URL.includes("YOUR_DISCORD")) {
         return Promise.resolve();
